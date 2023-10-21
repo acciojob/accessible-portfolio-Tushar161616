@@ -1,2 +1,29 @@
-
+*{
+	margin:0px;
+	padding:0px;
+}
 /* Your CSS Code here. */
+body{
+	background-color:lightblue;
+}
+.navbarul>li>a{
+	text-decoration:none;
+	color:aqua;
+}
+.navbarul{
+	list-style-type:none
+}
+nav>ul{
+	display:flex;
+	justify-content:space-evenly;
+	padding:10px;
+	background-color:rgb(49,49,49);
+}
+h1{
+	color:orange;
+	text-align:center;
+}
+img{
+	border:2px solid blue;
+	border-radius:50%;
+}
